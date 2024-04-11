@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="https://schema.org/Game">
+  <head>
+    <title>Chess Rules — Clear and Complete Guide</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- SEO -->
+    <meta name="description" content="Chess rules explained clearly: setup, piece movement, castling, en passant, promotion, checkmate, stalemate, and draws (including the 50-move rule).">
+    <meta name="keywords" content="chess rules, chess game, learn chess, castling, en passant, promotion, checkmate, stalemate, draw, 50-move rule">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Cyril Veltin">
+
+    <!-- Canonical + languages -->
+    <link rel="canonical" href="https://en.chess.page/">
+    <link rel="alternate" hreflang="en" href="https://en.chess.page/">
+    <link rel="alternate" hreflang="fr" href="https://fr.chess.page/">
+    <link rel="alternate" hreflang="ja" href="https://ja.chess.page/">
+    <link rel="alternate" hreflang="th" href="https://th.chess.page/">
+    <link rel="alternate" hreflang="zh" href="https://zh.chess.page/">
+    <link rel="alternate" hreflang="x-default" href="https://chess.page/">
+
+    <!-- Icon -->
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/props.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/all.css" media="all">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+
+    <!-- License -->
+    <meta name="dcterms.rights" content="https://creativecommons.org/publicdomain/zero/1.0/">
+    <meta name="dcterms.rightsHolder" content="Cyril Veltin">
+    <meta name="license" content="CC0-1.0">
+    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Chess Page">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://en.chess.page/">
+    <meta property="og:title" content="Chess Rules — Clear and Complete Guide">
+    <meta property="og:description" content="Chess rules: setup, piece movement, special moves, checkmate, stalemate, and draws (including the 50-move rule).">
+    <meta property="og:image" content="https://en.chess.page/img/caissa-and-mercury-apollo-game.jpeg">
+    <meta property="og:image:alt" content="Illustration of Caïssa (public domain).">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chess Rules — Clear and Complete Guide">
+    <meta name="twitter:description" content="Chess rules explained clearly: pieces, movement, castling, en passant, promotion, checkmate, stalemate, and draws.">
+    <meta name="twitter:image" content="https://en.chess.page/img/caissa-and-mercury-apollo-game.jpeg">
+    <meta name="twitter:image:alt" content="Illustration of Caïssa (public domain).">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@id": "https://en.chess.page/#game",
+        "@type": "Game",
+        "name": "Chess",
+        "alternateName": "The King of Games",
+        "description": "A two-player strategy game played on a 64-square board. The goal is to win by checkmating the opponent's king.",
+        "url": "https://en.chess.page/",
+        "image": "https://en.chess.page/img/caissa-and-mercury-apollo-game.jpeg",
+        "inLanguage": "en-US",
+        "numberOfPlayers": "2",
+        "keywords": [
+          "chess",
+          "chess rules",
+          "strategy game",
+          "checkmate",
+          "chess pieces"
+        ],
+        "educationalUse": [
+          "Strategy",
+          "Logic",
+          "Planning"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "price": "0",
+          "priceCurrency": "EUR"
+        },
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "copyrightHolder": {
+          "@type": "Person",
+          "name": "Cyril Veltin"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <img src="favicon.svg" alt="Chess Page logo" height="1024" width="1024">
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h1>Chess rules</h1>
+
+          <p>
+            <strong>Chess</strong> is a strategy game for <strong>two players</strong>, played on an <strong>8 × 8</strong> board
+            (64 squares).
+          </p>
+        </header>
+
+        <nav aria-label="Table of contents">
+          <h2>Table of contents</h2>
+          <ol>
+            <li><a href="./#objective">Objective</a></li>
+            <li><a href="./#setup">Setup</a></li>
+            <li><a href="./#piece-movement">Piece movement</a></li>
+            <li><a href="./#special-moves">Special moves</a></li>
+            <li><a href="./#checkmate">Check and checkmate</a></li>
+            <li><a href="./#stalemate-and-draw">Stalemate and draws</a></li>
+            <li><a href="./#end-of-game">End of the game</a></li>
+            <li><a href="./#art-and-literature">Chess in art and literature</a></li>
+          </ol>
+        </nav>
+
+        <section id="objective">
+          <h2>Objective</h2>
+
+          <p>
+            The objective is to <strong>win the game</strong> by delivering <strong>checkmate</strong> to the opponent’s king.
+          </p>
+
+          <p>
+            In practice, the game ends as soon as <strong>checkmate</strong> occurs: the king is in check,
+            and no <strong>legal move</strong> can get the king out of check.
+          </p>
+
+          <p>
+            In chess, the king is <strong>not captured</strong>: the game stops immediately when checkmate is reached.
+          </p>
+        </section>
+
+        <section id="setup">
+          <h2>Setup</h2>
+
+          <h3>Board</h3>
+          <ul>
+            <li>The board is a grid of <strong>8 files</strong> and <strong>8 ranks</strong>.</li>
+            <li>Squares alternate between a light color and a dark color.</li>
+            <li>The board is oriented so that each player has a <strong>light square</strong> in the bottom-right corner.</li>
+          </ul>
+
+          <h3>Players</h3>
+          <ul>
+            <li><strong>White</strong> always moves first.</li>
+            <li><strong>Black</strong> moves next, then White, and so on.</li>
+          </ul>
+
+          <h3>Starting pieces</h3>
+          <ul>
+            <li>Each player starts with <strong>16 pieces</strong>: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, 8 pawns.</li>
+            <li>The rank closest to each player contains the major pieces (king, queen, rooks, bishops, knights).</li>
+            <li>The rank in front of them contains the pawns.</li>
+          </ul>
+
+          <h3>Piece order</h3>
+          <p>
+            From White’s point of view, the back rank (left to right) is:
+            <strong>rook</strong>, <strong>knight</strong>, <strong>bishop</strong>, <strong>queen</strong>, <strong>king</strong>,
+            <strong>bishop</strong>, <strong>knight</strong>, <strong>rook</strong>.
+          </p>
+
+          <p>
+            The <strong>white queen</strong> starts on a <strong>light square</strong>.
+            The <strong>black queen</strong> starts on a <strong>dark square</strong>.
+          </p>
+
+          <p>The starting position is shown below:</p>
+
+          <table class="squares" aria-label="Chessboard in the initial position">
+            <caption>Initial position of a chess game.</caption>
+
+            <tbody>
+              <tr class="rank">
+                <td class="square" data-coordinate="a8" aria-label="a8, black rook">
+                  <img class="piece" draggable="true" data-code="c:r" data-style="chess" data-side="second" src="img/sides/second/representations/western/rook.svg" alt="Black rook">
+                </td>
+                <td class="square" data-coordinate="b8" aria-label="b8, black knight">
+                  <img class="piece" draggable="true" data-code="c:n" data-style="chess" data-side="second" src="img/sides/second/representations/western/knight.svg" alt="Black knight">
+                </td>
+                <td class="square" data-coordinate="c8" aria-label="c8, black bishop">
+                  <img class="piece" draggable="true" data-code="c:b" data-style="chess" data-side="second" src="img/sides/second/representations/western/bishop.svg" alt="Black bishop">
+                </td>
+                <td class="square" data-coordinate="d8" aria-label="d8, black queen">
+                  <img class="piece" draggable="true" data-code="c:q" data-style="chess" data-side="second" src="img/sides/second/representations/western/queen.svg" alt="Black queen">
+                </td>
+                <td class="square" data-coordinate="e8" aria-label="e8, black king">
+                  <img class="piece" draggable="true" data-code="c:k^" data-style="chess" data-side="second" src="img/sides/second/representations/western/king.svg" alt="Black king">
+                </td>
+                <td class="square" data-coordinate="f8" aria-label="f8, black bishop">
+                  <img class="piece" draggable="true" data-code="c:b" data-style="chess" data-side="second" src="img/sides/second/representations/western/bishop.svg" alt="Black bishop">
+                </td>
+                <td class="square" data-coordinate="g8" aria-label="g8, black knight">
+                  <img class="piece" draggable="true" data-code="c:n" data-style="chess" data-side="second" src="img/sides/second/representations/western/knight.svg" alt="Black knight">
+                </td>
+                <td class="square" data-coordinate="h8" aria-label="h8, black rook">
+                  <img class="piece" draggable="true" data-code="c:r" data-style="chess" data-side="second" src="img/sides/second/representations/western/rook.svg" alt="Black rook">
+                </td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a7" aria-label="a7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="b7" aria-label="b7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="c7" aria-label="c7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="d7" aria-label="d7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="e7" aria-label="e7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="f7" aria-label="f7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="g7" aria-label="g7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+                <td class="square" data-coordinate="h7" aria-label="h7, black pawn">
+                  <img class="piece" draggable="true" data-code="c:p" data-style="chess" data-side="second" src="img/sides/second/representations/western/pawn.svg" alt="Black pawn">
+                </td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a6" aria-label="a6, empty square"></td>
+                <td class="square" data-coordinate="b6" aria-label="b6, empty square"></td>
+                <td class="square" data-coordinate="c6" aria-label="c6, empty square"></td>
+                <td class="square" data-coordinate="d6" aria-label="d6, empty square"></td>
+                <td class="square" data-coordinate="e6" aria-label="e6, empty square"></td>
+                <td class="square" data-coordinate="f6" aria-label="f6, empty square"></td>
+                <td class="square" data-coordinate="g6" aria-label="g6, empty square"></td>
+                <td class="square" data-coordinate="h6" aria-label="h6, empty square"></td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a5" aria-label="a5, empty square"></td>
+                <td class="square" data-coordinate="b5" aria-label="b5, empty square"></td>
+                <td class="square" data-coordinate="c5" aria-label="c5, empty square"></td>
+                <td class="square" data-coordinate="d5" aria-label="d5, empty square"></td>
+                <td class="square" data-coordinate="e5" aria-label="e5, empty square"></td>
+                <td class="square" data-coordinate="f5" aria-label="f5, empty square"></td>
+                <td class="square" data-coordinate="g5" aria-label="g5, empty square"></td>
+                <td class="square" data-coordinate="h5" aria-label="h5, empty square"></td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a4" aria-label="a4, empty square"></td>
+                <td class="square" data-coordinate="b4" aria-label="b4, empty square"></td>
+                <td class="square" data-coordinate="c4" aria-label="c4, empty square"></td>
+                <td class="square" data-coordinate="d4" aria-label="d4, empty square"></td>
+                <td class="square" data-coordinate="e4" aria-label="e4, empty square"></td>
+                <td class="square" data-coordinate="f4" aria-label="f4, empty square"></td>
+                <td class="square" data-coordinate="g4" aria-label="g4, empty square"></td>
+                <td class="square" data-coordinate="h4" aria-label="h4, empty square"></td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a3" aria-label="a3, empty square"></td>
+                <td class="square" data-coordinate="b3" aria-label="b3, empty square"></td>
+                <td class="square" data-coordinate="c3" aria-label="c3, empty square"></td>
+                <td class="square" data-coordinate="d3" aria-label="d3, empty square"></td>
+                <td class="square" data-coordinate="e3" aria-label="e3, empty square"></td>
+                <td class="square" data-coordinate="f3" aria-label="f3, empty square"></td>
+                <td class="square" data-coordinate="g3" aria-label="g3, empty square"></td>
+                <td class="square" data-coordinate="h3" aria-label="h3, empty square"></td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a2" aria-label="a2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="b2" aria-label="b2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="c2" aria-label="c2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="d2" aria-label="d2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="e2" aria-label="e2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="f2" aria-label="f2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="g2" aria-label="g2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+                <td class="square" data-coordinate="h2" aria-label="h2, white pawn">
+                  <img class="piece" draggable="true" data-code="C:P" data-style="chess" data-side="first" src="img/sides/first/representations/western/pawn.svg" alt="White pawn">
+                </td>
+              </tr>
+
+              <tr class="rank">
+                <td class="square" data-coordinate="a1" aria-label="a1, white rook">
+                  <img class="piece" draggable="true" data-code="C:R" data-style="chess" data-side="first" src="img/sides/first/representations/western/rook.svg" alt="White rook">
+                </td>
+                <td class="square" data-coordinate="b1" aria-label="b1, white knight">
+                  <img class="piece" draggable="true" data-code="C:N" data-style="chess" data-side="first" src="img/sides/first/representations/western/knight.svg" alt="White knight">
+                </td>
+                <td class="square" data-coordinate="c1" aria-label="c1, white bishop">
+                  <img class="piece" draggable="true" data-code="C:B" data-style="chess" data-side="first" src="img/sides/first/representations/western/bishop.svg" alt="White bishop">
+                </td>
+                <td class="square" data-coordinate="d1" aria-label="d1, white queen">
+                  <img class="piece" draggable="true" data-code="C:Q" data-style="chess" data-side="first" src="img/sides/first/representations/western/queen.svg" alt="White queen">
+                </td>
+                <td class="square" data-coordinate="e1" aria-label="e1, white king">
+                  <img class="piece" draggable="true" data-code="C:K^" data-style="chess" data-side="first" src="img/sides/first/representations/western/king.svg" alt="White king">
+                </td>
+                <td class="square" data-coordinate="f1" aria-label="f1, white bishop">
+                  <img class="piece" draggable="true" data-code="C:B" data-style="chess" data-side="first" src="img/sides/first/representations/western/bishop.svg" alt="White bishop">
+                </td>
+                <td class="square" data-coordinate="g1" aria-label="g1, white knight">
+                  <img class="piece" draggable="true" data-code="C:N" data-style="chess" data-side="first" src="img/sides/first/representations/western/knight.svg" alt="White knight">
+                </td>
+                <td class="square" data-coordinate="h1" aria-label="h1, white rook">
+                  <img class="piece" draggable="true" data-code="C:R" data-style="chess" data-side="first" src="img/sides/first/representations/western/rook.svg" alt="White rook">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Unless stated otherwise, diagrams are shown from White’s point of view, with White at the bottom.
+          </p>
+        </section>
+
+        <section id="piece-movement">
+          <h2>Piece movement</h2>
+
+          <h3>General principles</h3>
+          <ul>
+            <li>On your turn, you play a <strong>move</strong>: you move <strong>one</strong> piece of your color.</li>
+            <li>A piece moves to a <strong>destination square</strong>.</li>
+            <li>The destination square must be <strong>empty</strong> or occupied by an <strong>opponent’s piece</strong>.</li>
+            <li>You cannot move onto a square occupied by one of your own pieces.</li>
+            <li>If the destination square contains an opponent’s piece, that piece is <strong>captured</strong> and removed from the game.</li>
+            <li>Except for the knight, pieces cannot jump over occupied squares: the path must be clear.</li>
+            <li>A move is <strong>illegal</strong> if it <strong>leaves</strong> your king in check or <strong>puts</strong> your king in check.</li>
+          </ul>
+
+          <h3>Movement by piece</h3>
+
+          <h4>King</h4>
+          <ul>
+            <li>The king moves <strong>one square</strong> in any direction (horizontal, vertical, or diagonal).</li>
+            <li>The king captures in the same way.</li>
+          </ul>
+
+          <h4>Queen</h4>
+          <ul>
+            <li>The queen moves any number of squares in a straight line: horizontally, vertically, or diagonally.</li>
+            <li>The queen captures in the same way.</li>
+          </ul>
+
+          <h4>Rook</h4>
+          <ul>
+            <li>The rook moves any number of squares horizontally or vertically.</li>
+            <li>The rook captures in the same way.</li>
+          </ul>
+
+          <h4>Bishop</h4>
+          <ul>
+            <li>The bishop moves any number of squares diagonally.</li>
+            <li>The bishop captures in the same way.</li>
+          </ul>
+
+          <h4>Knight</h4>
+          <ul>
+            <li>The knight moves in an <strong>L</strong> shape: 2 squares in one direction (horizontal or vertical), then 1 square perpendicular.</li>
+            <li>The knight can <strong>jump</strong> over other pieces.</li>
+            <li>The knight captures by landing on the square occupied by an opponent’s piece.</li>
+          </ul>
+
+          <h4>Pawn</h4>
+          <p>
+            Pawns move differently when advancing and when capturing.
+            For White, “forward” means “toward the top of the diagram”.
+            For Black, “forward” means “toward the bottom of the diagram”.
+          </p>
+          <ul>
+            <li>A pawn advances <strong>one square</strong> forward if the square is empty.</li>
+            <li>On its first move, a pawn may advance <strong>two squares</strong> if both squares are empty.</li>
+            <li>A pawn captures <strong>one square</strong> diagonally forward (left or right).</li>
+            <li>A pawn does not capture straight ahead.</li>
+          </ul>
+        </section>
+
+        <section id="special-moves">
+          <h2>Special moves</h2>
+
+          <dl>
+            <dt>Castling</dt>
+            <dd>
+              <p>
+                Castling is a special move involving the <strong>king</strong> and a <strong>rook</strong> of the same player.
+                The king moves <strong>two squares</strong> toward the rook, and the rook moves to the square immediately next to the king,
+                on the other side.
+              </p>
+
+              <p>Castling is allowed only if:</p>
+              <ul>
+                <li>the king has not moved yet;</li>
+                <li>the rook used has not moved yet;</li>
+                <li>there are no pieces between the king and that rook;</li>
+                <li>the king is <strong>not in check</strong> at the time of castling;</li>
+                <li>the king does <strong>not pass through</strong> an attacked square;</li>
+                <li>the king’s destination square is <strong>not</strong> attacked.</li>
+              </ul>
+            </dd>
+
+            <dt>En passant</dt>
+            <dd>
+              <p>
+                En passant applies only to pawns.
+                If a pawn advances two squares from its starting square and lands next to an opposing pawn (horizontally),
+                that opposing pawn may capture it <strong>as if</strong> it had moved only one square.
+              </p>
+
+              <p>
+                The capturing pawn moves one square diagonally forward onto the “passed” square, and the captured pawn is removed.
+              </p>
+
+              <p>
+                This capture is only possible <strong>immediately</strong> on the move after the two-square advance.
+                If it is not played right away, the right to capture en passant is lost.
+              </p>
+            </dd>
+
+            <dt>Pawn promotion</dt>
+            <dd>
+              <p>
+                When a pawn reaches the last rank (the far edge of the board), it is <strong>promoted</strong>.
+                The pawn is replaced by a <strong>queen</strong>, <strong>rook</strong>, <strong>bishop</strong>, or <strong>knight</strong> of the same color.
+              </p>
+
+              <p>
+                Promotion to a king is not possible.
+                The choice is free: you do not need a captured piece available.
+                It is therefore possible to have multiple queens.
+              </p>
+            </dd>
+          </dl>
+        </section>
+
+        <section id="checkmate">
+          <h2>Check and checkmate</h2>
+
+          <h3>Definitions</h3>
+          <ul>
+            <li><strong>Check</strong>: the king is attacked by at least one opponent’s piece.</li>
+            <li><strong>Attacked square</strong>: a square is attacked if an opponent’s piece could capture a piece on that square according to its movement, taking blocking pieces into account.</li>
+            <li><strong>To respond to check</strong>: to play a legal move after which the king is no longer in check.</li>
+            <li><strong>Checkmate</strong>: the king is in check and no legal move can respond to the check.</li>
+          </ul>
+
+          <h3>Announcing check</h3>
+          <p>
+            Players may announce check, but it is not required.
+            What matters is the actual position on the board.
+          </p>
+
+          <h3>What to do when your king is in check</h3>
+          <p>If your king is in check, you must play a move that responds to the check, for example:</p>
+          <ul>
+            <li>move the king to a non-attacked square,</li>
+            <li>capture the attacking piece (if the king is no longer in check afterward),</li>
+            <li>block the attack (only against a line attack: rook, bishop, queen).</li>
+          </ul>
+        </section>
+
+        <section id="stalemate-and-draw">
+          <h2>Stalemate and draws</h2>
+
+          <h3>Stalemate</h3>
+          <p>
+            A position is <strong>stalemate</strong> if the player to move:
+            (1) is not in check, and
+            (2) has no <strong>legal move</strong>.
+            In that case, the game is a draw.
+          </p>
+
+          <h3>Other types of draws</h3>
+          <ul>
+            <li>
+              <strong>Draw by agreement</strong>:
+              the two players may agree to a draw.
+            </li>
+            <li>
+              <strong>Insufficient material</strong>:
+              neither side can checkmate with perfect play
+              (typical examples: king vs. king; king and bishop vs. king; king and knight vs. king).
+            </li>
+            <li>
+              <strong>Threefold repetition</strong>:
+              if the same position occurs three times (same player to move, and the same rights available,
+              including castling and en passant rights), the game may be declared a draw.
+              Depending on the setting (arbiter, online platform), it may be claimed or automatic.
+            </li>
+            <li>
+              <strong>50-move rule</strong>:
+              if <strong>50 moves by each player</strong> (that is, <strong>100 half-moves</strong>) are played with <strong>no capture</strong> and <strong>no pawn move</strong>,
+              the game may be declared a draw (by claim or automatically, depending on the setting).
+            </li>
+            <li>
+              <strong>Dead position</strong>:
+              some positions are drawn because no checkmate is possible, regardless of how the game continues.
+              In that case, the game is a draw regardless of whose turn it is.
+            </li>
+          </ul>
+        </section>
+
+        <section id="end-of-game">
+          <h2>End of the game</h2>
+
+          <ul>
+            <li>
+              The game ends by <strong>checkmate</strong> (win), by <strong>resignation</strong>, or by a <strong>draw</strong>.
+            </li>
+            <li>
+              A player may <strong>resign</strong> at any time.
+              Resigning means the player acknowledges defeat.
+            </li>
+            <li>
+              In timed games, a player may lose <strong>on time</strong> if they exceed the allotted time,
+              according to the time control rules being used.
+            </li>
+            <li>
+              In software implementations, an illegal move (for example, leaving your king in check) is usually rejected.
+            </li>
+          </ul>
+        </section>
+
+        <section id="art-and-literature">
+          <h2>Chess in art and literature</h2>
+
+          <p>
+            Chess has inspired many works. Here are two classic references often cited:
+          </p>
+
+          <dl>
+            <dt><q lang="la">Scacchi ludus</q> (1527) — Marco Girolamo Vida</dt>
+            <dd>A poem describing a mythical chess game between gods.</dd>
+
+            <dt><q lang="en">Caïssa: or The Game of Chess</q> (1772) — William Jones</dt>
+            <dd>A poem that popularized Caïssa, an allegorical figure associated with chess.</dd>
+          </dl>
+
+          <figure>
+            <img
+              src="img/caissa-and-mercury-apollo-game.jpeg"
+              alt="Illustration depicting a mythical scene associated with Caïssa"
+              title="Illustration of Caïssa"
+              loading="lazy">
+            <figcaption>Illustration of Caïssa (public domain).</figcaption>
+          </figure>
+        </section>
+      </article>
+
+      <aside aria-label="See also">
+        <h2>See also</h2>
+        <p>Cultural variants around the chess family:</p>
+
+        <ul>
+          <li>
+            <strong><a href="https://en.ogi.page/" rel="external">Ōgi (王棋)</a></strong> —
+            The <q>Game of the King</q>, a Japanese variant derived from shōgi, played on a smaller board with the possibility to reuse captured pieces.
+          </li>
+          <li>
+            <strong><a href="https://en.xiongqi.page/" rel="external">Xiongqi (熊棋)</a></strong> —
+            <q>Panda Chess</q>, an adaptation of traditional Chinese chess on an 8 × 8 board, blending Western and Eastern elements.
+          </li>
+        </ul>
+      </aside>
+
+      <nav aria-label="Language selection">
+        <h2>Languages</h2>
+        <p>This page is also available in other languages:</p>
+
+        <ul>
+          <!-- <li><a title="Switch to English" href="https://en.chess.page/" lang="en">English</a></li> -->
+          <li><a title="Passer en français" href="https://fr.chess.page/" lang="fr">Français</a></li>
+          <li><a title="日本語に切り替える" href="https://ja.chess.page/" lang="ja">日本語</a></li>
+          <li><a title="เปลี่ยนเป็นภาษาไทย" href="https://th.chess.page/" lang="th">ภาษาไทย</a></li>
+          <li><a title="切换到中文" href="https://zh.chess.page/" lang="zh">中文</a></li>
+        </ul>
+      </nav>
+    </main>
+
+    <footer>
+      <p>
+        This page and its content are dedicated to the public domain via
+        <a rel="license external" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
+        You may copy, modify, and redistribute it without asking permission.
+      </p>
+    </footer>
+  </body>
+</html>
